@@ -1,0 +1,108 @@
+<text text-cts="urn:cts:greekLit:tlg0013.tlg011.perseus-grc2" author="" title="Hymn 11 To Athena Machine readable text" file-name="tlg0013.tlg011.perseus-grc2.xml" date-of-conversion="2017-03-29">
+  <sentence n="position in the document">
+    <token p="passage-level cts urn" n="position in @p" a="nth occurrence in @p" o="Mate tagger POS tag" u="position in s element" join="optional: join b(ack) or a(fter) for punctuation marks" tag="optional: selection of editorial tags containing the token in the original document, such as del or add">
+      <wordForm>word form of the token</wordForm>
+      <lemma id="contains the id number of the entry in the database consisting of the set of all word forms + morphological analyses of all Greek texts">
+        <l1>as many l1 elements as the lemmas found in PerseusUnderPhilologic for 
+              the relevant word form AND morphological analysis</l1>
+        <l2>as many l2 elements as the lemmas found in Morpheus for 
+              the relevant word form AND morphological analysis</l2>
+      </lemma>
+    </token>
+  </sentence>
+  <s n="1">
+    <t p="1" n="1" a="[1]" o="n-s---fa-" u="1">
+      <f>Παλλάδʼ</f>
+      <l i="148290">
+        <l1 o="ne-s---fa-">Παλλάς</l1>
+      </l>
+    </t>
+    <t p="1" n="2" a="[1]" o="n-s---fa-" u="2">
+      <f>Ἀθηναίην</f>
+      <l i="6544">
+        <l1 o="ne-s---fa-">Ἀθήνη</l1>
+      </l>
+    </t>
+    <t p="1" n="3" a="[1]" o="n-s---fa-" u="3">
+      <f>ἐρυσίπτολιν</f>
+      <l i="172162"/>
+    </t>
+    <t p="1" n="4" a="[1]" o="a-s---fa-" u="4">
+      <f>ἄρχομʼ</f>
+      <l i="172163"/>
+    </t>
+    <t p="1" n="5" a="[1]" o="v--pna---" u="5">
+      <f>ἀείδειν</f>
+      <l i="3648">
+        <l1 o="v---pna---">ἀείδω</l1>
+        <l2>ἀείδω</l2>
+      </l>
+    </t>
+    <t p="1" n="6" a="[1]" o="u--------" u="6" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="5" n="1" a="[1]" o="v2spma---" u="7">
+      <f>χαῖρε</f>
+      <l i="40964">
+        <l1 o="v-2spma---">χαίρω</l1>
+        <l2>χαίρω</l2>
+      </l>
+    </t>
+    <t p="5" n="2" a="[1]" o="u--------" u="8" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="5" n="3" a="[1]" o="n-s---fv-" u="9">
+      <f>θεά</f>
+      <l i="8593">
+        <l1 o="n--s---fv-">θεά</l1>
+        <l2>θεά</l2>
+        <l2>θέα</l2>
+      </l>
+    </t>
+    <t p="5" n="4" a="[2]" o="u--------" u="10" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="5" n="5" a="[1]" o="v2sama---" u="11">
+      <f>δὸς</f>
+      <l i="9331">
+        <l1 o="v-2sama---">δίδωμι</l1>
+      </l>
+    </t>
+    <t p="5" n="6" a="[1]" o="d--------" u="12">
+      <f>δʼ</f>
+      <l i="48"/>
+    </t>
+    <t p="5" n="7" a="[1]" o="p-p---md-" u="13">
+      <f>ἄμμι</f>
+      <l i="1538"/>
+    </t>
+    <t p="5" n="8" a="[1]" o="n-s---fa-" u="14">
+      <f>τύχην</f>
+      <l i="20922">
+        <l1 o="n--s---fa-">τύχη</l1>
+        <l2>τύχη</l2>
+      </l>
+    </t>
+    <t p="5" n="9" a="[1]" o="n-s---fa-" u="15">
+      <f>εὐδαιμονίην</f>
+      <l i="172164">
+        <l1 o="n--s---fa-">εὐδαιμονία</l1>
+        <l2>εὐδαιμονία</l2>
+      </l>
+    </t>
+    <t p="5" n="10" a="[1]" o="g--------" u="16">
+      <f>τε</f>
+      <l i="122">
+        <l1 o="g---------">τε</l1>
+        <l2>τε</l2>
+      </l>
+    </t>
+    <t p="5" n="11" a="[1]" o="u--------" u="17" join="b">
+      <f>.</f>
+      <l i="26"/>
+    </t>
+  </s>
+</text>

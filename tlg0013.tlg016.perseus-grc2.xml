@@ -1,0 +1,127 @@
+<text text-cts="urn:cts:greekLit:tlg0013.tlg016.perseus-grc2" author="" title="Hymn 16 To Asclepius Machine readable text" file-name="tlg0013.tlg016.perseus-grc2.xml" date-of-conversion="2017-03-29">
+  <sentence n="position in the document">
+    <token p="passage-level cts urn" n="position in @p" a="nth occurrence in @p" o="Mate tagger POS tag" u="position in s element" join="optional: join b(ack) or a(fter) for punctuation marks" tag="optional: selection of editorial tags containing the token in the original document, such as del or add">
+      <wordForm>word form of the token</wordForm>
+      <lemma id="contains the id number of the entry in the database consisting of the set of all word forms + morphological analyses of all Greek texts">
+        <l1>as many l1 elements as the lemmas found in PerseusUnderPhilologic for 
+              the relevant word form AND morphological analysis</l1>
+        <l2>as many l2 elements as the lemmas found in Morpheus for 
+              the relevant word form AND morphological analysis</l2>
+      </lemma>
+    </token>
+  </sentence>
+  <s n="1">
+    <t p="1" n="1" a="[1]" o="n-s---ma-" u="1">
+      <f>ἰητῆρα</f>
+      <l i="169187">
+        <l1 o="n--s---ma-">ἰατρός</l1>
+        <l2>ἰατήρ</l2>
+      </l>
+    </t>
+    <t p="1" n="2" a="[1]" o="n-p---fg-" u="2">
+      <f>νόσων</f>
+      <l i="48513">
+        <l1 o="n--p---fg-">νόσος</l1>
+        <l2>νόσος</l2>
+      </l>
+    </t>
+    <t p="1" n="3" a="[1]" o="n-s---ma-" u="3">
+      <f>Ἀσκληπιὸν</f>
+      <l i="51453">
+        <l1 o="ne-s---ma-">Ἀσκληπιός</l1>
+      </l>
+    </t>
+    <t p="1" n="4" a="[1]" o="n-s---ma-" u="4">
+      <f>ἄρχομʼ</f>
+      <l i="172168"/>
+    </t>
+    <t p="1" n="5" a="[1]" o="v--pna---" u="5">
+      <f>ἀείδειν</f>
+      <l i="3648">
+        <l1 o="v---pna---">ἀείδω</l1>
+        <l2>ἀείδω</l2>
+      </l>
+    </t>
+    <t p="1" n="6" a="[1]" o="u--------" u="6" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="5" n="1" a="[1]" o="d--------" u="7">
+      <f>καὶ</f>
+      <l i="13">
+        <l1 o="d---------">καί</l1>
+      </l>
+    </t>
+    <t p="5" n="2" a="[1]" o="p-s----n-" u="8">
+      <f>σὺ</f>
+      <l i="1402">
+        <l1 o="pp-s----n-">σύ</l1>
+      </l>
+    </t>
+    <t p="5" n="3" a="[1]" o="g--------" u="9">
+      <f>μὲν</f>
+      <l i="60">
+        <l1 o="g---------">μέν</l1>
+      </l>
+    </t>
+    <t p="5" n="4" a="[1]" o="d--------" u="10">
+      <f>οὕτω</f>
+      <l i="3584">
+        <l1 o="dd--------">οὕτως</l1>
+        <l2>οὕτως</l2>
+      </l>
+    </t>
+    <t p="5" n="5" a="[1]" o="v2spma---" u="11">
+      <f>χαῖρε</f>
+      <l i="40964">
+        <l1 o="v-2spma---">χαίρω</l1>
+        <l2>χαίρω</l2>
+      </l>
+    </t>
+    <t p="5" n="6" a="[1]" o="u--------" u="12" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="5" n="7" a="[1]" o="n-s---mv-" u="13">
+      <f>ἄναξ</f>
+      <l i="1828">
+        <l1 o="n--s---mv-">ἄναξ</l1>
+        <l2>ἄναξ</l2>
+      </l>
+    </t>
+    <t p="5" n="8" a="[1]" o="u--------" u="14" join="b">
+      <f>·</f>
+      <l i="134"/>
+    </t>
+  </s>
+  <s n="2">
+    <t p="5" n="9" a="[1]" o="v1spie---" u="1">
+      <f>λίτομαι</f>
+      <l i="172169">
+        <l2>λίτομαι</l2>
+      </l>
+    </t>
+    <t p="5" n="10" a="[1]" o="g--------" u="2">
+      <f>δέ</f>
+      <l i="570">
+        <l1 o="g---------">δέ</l1>
+        <l2>δέ</l2>
+      </l>
+    </t>
+    <t p="5" n="11" a="[1]" o="a-s---fd-" u="3">
+      <f>σʼ</f>
+      <l i="172170"/>
+    </t>
+    <t p="5" n="12" a="[1]" o="n-s---fd-" u="4">
+      <f>ἀοιδῇ</f>
+      <l i="2447">
+        <l1 o="n--s---fd-">ἀοιδή</l1>
+        <l2>ἀοιδή</l2>
+      </l>
+    </t>
+    <t p="5" n="13" a="[1]" o="u--------" u="5" join="b">
+      <f>.</f>
+      <l i="26"/>
+    </t>
+  </s>
+</text>

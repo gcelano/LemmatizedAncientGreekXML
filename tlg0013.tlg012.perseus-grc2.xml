@@ -1,0 +1,98 @@
+<text text-cts="urn:cts:greekLit:tlg0013.tlg012.perseus-grc2" author="" title="Hymn 12 To Hera Machine readable text" file-name="tlg0013.tlg012.perseus-grc2.xml" date-of-conversion="2017-03-29">
+  <sentence n="position in the document">
+    <token p="passage-level cts urn" n="position in @p" a="nth occurrence in @p" o="Mate tagger POS tag" u="position in s element" join="optional: join b(ack) or a(fter) for punctuation marks" tag="optional: selection of editorial tags containing the token in the original document, such as del or add">
+      <wordForm>word form of the token</wordForm>
+      <lemma id="contains the id number of the entry in the database consisting of the set of all word forms + morphological analyses of all Greek texts">
+        <l1>as many l1 elements as the lemmas found in PerseusUnderPhilologic for 
+              the relevant word form AND morphological analysis</l1>
+        <l2>as many l2 elements as the lemmas found in Morpheus for 
+              the relevant word form AND morphological analysis</l2>
+      </lemma>
+    </token>
+  </sentence>
+  <s n="1">
+    <t p="1" n="1" a="[1]" o="n-s---fa-" u="1">
+      <f>Ἥρην</f>
+      <l i="8588">
+        <l1 o="ne-s---fa-">Ἥρα</l1>
+      </l>
+    </t>
+    <t p="1" n="2" a="[1]" o="v1spia---" u="2">
+      <f>ἀείδω</f>
+      <l i="14287">
+        <l1 o="v-1spia---">ἀείδω</l1>
+        <l2>ἀείδω</l2>
+      </l>
+    </t>
+    <t p="1" n="3" a="[1]" o="a-s---fa-" u="3">
+      <f>χρυσόθρονον</f>
+      <l i="169787">
+        <l1 o="a--s---fa-">χρυσόθρονος</l1>
+        <l2>χρυσόθρονος</l2>
+      </l>
+    </t>
+    <t p="1" n="4" a="[1]" o="u--------" u="4" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="1" n="5" a="[1]" o="p-s---fa-" u="5">
+      <f>ἣν</f>
+      <l i="76">
+        <l1 o="pr-s---fa-">ὅς</l1>
+        <l1 o="ps-s---fa-">ὅς2</l1>
+      </l>
+    </t>
+    <t p="1" n="6" a="[1]" o="v3saia---" u="6">
+      <f>τέκε</f>
+      <l i="603">
+        <l1 o="v-3saia---">τίκτω</l1>
+        <l2>τίκτω</l2>
+      </l>
+    </t>
+    <t p="1" n="7" a="[1]" o="n-s---fn-" u="7">
+      <f>Ῥείη</f>
+      <l i="172165">
+        <l1 o="ne-s---fn-">Ῥέα</l1>
+      </l>
+    </t>
+    <t p="1" n="8" a="[2]" o="u--------" u="8" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="5" n="1" a="[1]" o="v-pppemn-" u="9">
+      <f>ἁζόμενοι</f>
+      <l i="12220"/>
+    </t>
+    <t p="5" n="2" a="[1]" o="v3ppia---" u="10">
+      <f>τίουσιν</f>
+      <l i="167741">
+        <l1 o="v-3ppia---">τίω</l1>
+        <l2>τίω</l2>
+      </l>
+    </t>
+    <t p="5" n="3" a="[1]" o="d--------" u="11">
+      <f>ὁμῶς</f>
+      <l i="428">
+        <l1 o="d---------">ὁμῶς</l1>
+        <l2>ὁμῶς</l2>
+      </l>
+    </t>
+    <t p="5" n="4" a="[1]" o="n-s---md-" u="12">
+      <f>Διὶ</f>
+      <l i="2237">
+        <l1 o="ne-s---md-">Ζεύς</l1>
+      </l>
+    </t>
+    <t p="5" n="5" a="[1]" o="a-s---md-" u="13">
+      <f>τερπικεραύνῳ</f>
+      <l i="148567">
+        <l1 o="a--s---md-">τερπικέραυνος</l1>
+        <l2>τερπικέραυνος</l2>
+      </l>
+    </t>
+    <t p="5" n="6" a="[1]" o="u--------" u="14" join="b">
+      <f>.</f>
+      <l i="26"/>
+    </t>
+  </s>
+</text>
