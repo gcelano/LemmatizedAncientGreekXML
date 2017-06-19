@@ -14,9 +14,6 @@ Refer to these repositories for further documentation. In the present repository
 
 The XML structure of each file is self explanatory and meaning of abbreviations are explained at the beginning of each file. For convenience I give an example here:
 
-
-
-
 ```xml
   <s n="2">
     <t p="4" n="1" a="[1]" o="p-s---mn-" u="1">
@@ -37,6 +34,19 @@ The XML structure of each file is self explanatory and meaning of abbreviations 
    
    </s>
 ```
+Read the above xml fragment this way:
+
+* ```s``` element: sentence element, where ```@n``` is sentence number
+* ```t``` element: token element, which contains a number of values providing its morphological analysis:
+  * ```@p```: passage-level cts urn
+  * ```@n```: position of the token in ```@p```
+  * ```@a```: nth occurrence of that token in ```@p```
+  * ```@o```: morphological analysis of the token as provided automatically by the Mate tagger
+  * ```@u```: position of the token with the s(entence) element
+  * ```f``` element: the <mark>word form</mark> of the token
+  * ```l``` element: possible lemmata extracted from Morpheus (```<l2/>```) and PerseusUnderPhilologic (```<l1/>```) found by matching their word forms ```AND``` POS tags with those found in the present database. in ```<l1/>``` ```@o``` contains the original PerseusUnderPhilologic POS tag, which can be more informative than the Morpheus one. For example, ὃς in the above example is analyzed in PerseusUnderPhilologic as a relative provoun (```o="pr-s---mn-"```: see "r" in second position). Similarly, ὅδε is analyzed as a demonstative pronoun, while Morpheus simply treats it as a pronoun. One token may have more than one  ```<l1/>``` and/or ```<l2/>``` elements associated.
+
+
 
 
 
