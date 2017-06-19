@@ -12,7 +12,31 @@ As for the tokenization, POS tagging and sentence splitting, the data rely on th
 
 Refer to these repositories for further documentation. In the present repository, the POS tag + the word form of a token have been automatically linked to those contained in Morpheus and MorpheusUnderPhilologic. Since the latter databases also contain lemmata, this allowed their automatic extraction.
 
-The <span style="background-color: #FFFF00">XML structure</span> of each file is self explanatory and meaning of abbreviations are explained at the begenning of each file. For convenience I give an example here:
+The XML structure of each file is self explanatory and meaning of abbreviations are explained at the beginning of each file. For convenience I give an example here:
+
+
+
+
+```xml
+  <s n="2">
+    <t p="4" n="1" a="[1]" o="p-s---mn-" u="1">
+      <f>ὃς</f>
+      <l i="234">
+        <l1 o="pr-s---mn-">ὅς</l1>
+      </l>
+    </t>
+    <t p="4" n="2" a="[1]" o="p-p---fa-" u="2">
+      <f>τάσδε</f>
+      <l i="5901">
+        <l1 o="pd-p---fa-">ὅδε</l1>
+        <l2>ὅδε</l2>
+      </l>
+    </t>
+   
+    <!-- further t elements -->
+   
+   </s>
+```
 
 
 
