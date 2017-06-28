@@ -1,4 +1,4 @@
-# LemmatizedAncientGreekXML
+# Lemmatized AncientGreek Texts
 
 This repository contains Ancient Greek texts which have been tokenized, POS-tagged, sentence-splitted, and lemmatized automatically. The texts come from the following repositories, which currently contain most of the Ancient Greek texts freely accessible over the internet:
 
