@@ -2,13 +2,12 @@
 
 This repository contains Ancient Greek texts which have been tokenized, POS-tagged, sentence-splitted, and lemmatized automatically. The texts come from the following repositories, which currently contain most of the Ancient Greek texts freely accessible over the internet:
 
-1. https://github.com/PerseusDL/canonical-greekLit/releases/tag/0.0.4
-2. https://github.com/OpenGreekAndLatin/First1KGreek/releases/tag/v1.1
+1. https://github.com/PerseusDL/canonical-greekLit/releases/tag/0.0.236
+2. https://github.com/OpenGreekAndLatin/First1KGreek/releases/tag/1.1.1802
 
 As for the tokenization, POS tagging and sentence splitting, the data rely on those provided in:
 
-1. https://github.com/gcelano/CTSAncientGreekXML
-2. https://github.com/gcelano/POStaggedAncientGreekXML
+1. https://github.com/gcelano/POStaggedAncientGreekXML/releases/tag/v1.2.0
 
 Refer to these repositories for further documentation. In the present repository, the POS tag + the word form of a token have been automatically linked to those contained in Morpheus and MorpheusUnderPhilologic. Since the latter databases also contain lemmata, this allowed their automatic extraction.
 
