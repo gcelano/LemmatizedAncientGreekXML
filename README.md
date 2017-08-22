@@ -45,6 +45,84 @@ Read the above xml fragment this way:
   * ```f``` element: the <mark>word form</mark> of the token
   * ```l``` element: possible lemmata extracted from Morpheus (```<l2/>```) and PerseusUnderPhilologic (```<l1/>```) found by matching their word forms ```AND``` POS tags with those found in the present database. in ```<l1/>``` ```@o``` contains the original PerseusUnderPhilologic POS tag, which can be more informative than the Morpheus one. For example, ὃς in the above example is analyzed in PerseusUnderPhilologic as a relative provoun (```o="pr-s---mn-"```: see "r" in second position). Similarly, ὅδε is analyzed as a demonstative pronoun, while Morpheus simply treats it as a pronoun. One token may have more than one  ```<l1/>``` and/or ```<l2/>``` elements associated.
 
+Meaning of abbreviations in t/@o:
+
+* 1:  part of speech
+  * n noun
+  * v verb
+  * t participle
+  * a adjective
+  * d adverb
+  * l article
+  * g particle
+  * c conjunction
+  * r preposition
+  * p pronoun
+  * m numeral
+  * i interjection
+  * e exclamation
+  * u punctuation
+
+2: person
+  * 1 first person
+  * 2 second person
+  * 3 third person
+
+* 3: number
+  * s singular
+  * p plural
+  * d dual
+
+* 4: tense
+  * p present
+  * i imperfect
+  * r perfect
+  * l pluperfect
+  * t future perfect
+  * f future
+  * a aorist
+
+* 5: mood
+  * i indicative
+  * s subjunctive
+  * o optative
+  * n infinitive
+  * m imperative
+  * p participle
+
+* 6: voice
+  * a active
+  * p passive
+  * m middle
+  * e medio-passive
+
+* 7: gender
+  * m masculine
+  * f feminine
+  * n neuter
+
+* 8: case
+  * n nominative
+  * g genitive
+  * d dative
+  * a accusative
+  * v vocative
+  * l locative
+
+* 9: degree
+  * c	comparative
+  * s	superlative
+
+
+
+
+# Changelog
+
+In  the present version (1.2.1): 
+
+* lemmas are corrected: if a Morpheus lemma (<l2/>) is the same as a MorpheusUnderPhilologic lemma (<l1/>), it is deleted.
+* documentation is improved: meaning of abbreviations in @o published
+
 # License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
