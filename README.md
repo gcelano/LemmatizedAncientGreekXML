@@ -45,76 +45,103 @@ Read the above xml fragment this way:
   * ```f``` element: the <mark>word form</mark> of the token
   * ```l``` element: possible lemmata extracted from Morpheus (```<l2/>```) and PerseusUnderPhilologic (```<l1/>```) found by matching their word forms ```AND``` POS tags with those found in the present database. in ```<l1/>``` ```@o``` contains the original PerseusUnderPhilologic POS tag, which can be more informative than the Morpheus one. For example, ὃς in the above example is analyzed in PerseusUnderPhilologic as a relative provoun (```o="pr-s---mn-"```: see "r" in second position). Similarly, ὅδε is analyzed as a demonstative pronoun, while Morpheus simply treats it as a pronoun. One token may have more than one  ```<l1/>``` and/or ```<l2/>``` elements associated.
 
-Meaning of abbreviations in t/@o:
+Meaning of abbreviations in t/@o (this value is the one used in Morpheus):
 
 * 1:  part of speech
-  * n noun
-  * v verb
-  * t participle
-  * a adjective
-  * d adverb
-  * l article
-  * g particle
-  * c conjunction
-  * r preposition
-  * p pronoun
-  * m numeral
-  * i interjection
-  * e exclamation
-  * u punctuation
+  * ```n```: noun
+  * ```v```: verb
+  * ```t```: participle
+  * ```a```: adjective
+  * ```d```: adverb
+  * ```l```: article
+  * ```g```: particle
+  * ```c```: conjunction
+  * ```r```: preposition
+  * ```p```: pronoun
+  * ```m```: numeral
+  * ```i```: interjection
+  * ```e```: exclamation
+  * ```u```: punctuation
 
 2: person
-  * 1 first person
-  * 2 second person
-  * 3 third person
+  * ```1```: first person
+  * ```2```: second person
+  * ```3```: third person
 
 * 3: number
-  * s singular
-  * p plural
-  * d dual
+  * ```s```: singular
+  * ```p```: plural
+  * ```d```: dual
 
 * 4: tense
-  * p present
-  * i imperfect
-  * r perfect
-  * l pluperfect
-  * t future perfect
-  * f future
-  * a aorist
+  * ```p```: present
+  * ```i```: imperfect
+  * ```r```: perfect
+  * ```l```: pluperfect
+  * ```t```: future perfect
+  * ```f```: future
+  * ```a```: aorist
 
 * 5: mood
-  * i indicative
-  * s subjunctive
-  * o optative
-  * n infinitive
-  * m imperative
-  * p participle
+  * ```i```: indicative
+  * ```s```: subjunctive
+  * ```o```: optative
+  * ```n```: infinitive
+  * ```m```: imperative
+  * ```p```: participle
 
 * 6: voice
-  * a active
-  * p passive
-  * m middle
-  * e medio-passive
+  * ```a```: active
+  * ```p```: passive
+  * ```m```: middle
+  * ```e```: medio-passive
 
 * 7: gender
-  * m masculine
-  * f feminine
-  * n neuter
+  * ```m```: masculine
+  * ```f```: feminine
+  * ```n```: neuter
 
 * 8: case
-  * n nominative
-  * g genitive
-  * d dative
-  * a accusative
-  * v vocative
-  * l locative
+  * ```n```: nominative
+  * ```g```: genitive
+  * ```d```: dative
+  * ```a```: accusative
+  * ```v```: vocative
+  * ```l```: locative
 
 * 9: degree
-  * c	comparative
-  * s	superlative
+  * ```c```: comparative
+  * ```s```: superlative
 
+The meaning of abbreviations in t/l/l1/@o (used in MorpheusUnderPhilologic) is the same as that in Morpheus (see above) except for the first two
+characters. Read them like this:
 
-
+* ```ae```: proper adjective (e.g., Ἀθηναῖος). 
+* ```ne```: proper noun (eg., Ζεύς)
+* ```d-```: adverb" (eg., οὐ)
+* ```dd```: demonstrative adverb (eg., ταύτῃ)
+* ```de```: proper name adverb (eg., Ἀθήναζε)
+* ```di```: interrogative adverb (eg., ποῦ)
+* ```dr```: relative adverb (eg., οἷ)
+* ```dx```: indefinite adverb (eg., που)
+* ```c-```: conjunction (eg., καί)
+* ```r-```: preposition 
+* ```p-```: pronoun
+* ```pa```: definite article
+* ```pc```: reciprocal pronoun (eg., ἀλλήλους)
+* ```pd```: demonstrative pronoun (eg., οὗτος)
+* ```pi```: interrogative pronoun (eg., τίς)
+* ```pk```: reflexive pronoun (eg., σεαυτόν)
+* ```pp```: personal pronoun (eg., με)
+* ```pr```: relative pronoun (eg., ὅς) 
+* ```ps```: possessive pronoun (eg., ἐμός)
+* ```px```: indefinite pronoun (eg., τις)
+* ```m-```: numeral
+* ```i-```: interjection (eg., ὀτοτοί)
+* ```e```: exclamation
+* ```y```: math term or abbrev for all of Euclid's ΑΒΓ geometrical figures
+* ```g-```: particle
+* ```gm```: modal particle" (eg., κε)
 
 # Changelog
 
