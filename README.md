@@ -9,7 +9,7 @@ As for the tokenization, POS tagging and sentence splitting, the data rely on th
 
 1. https://github.com/gcelano/POStaggedAncientGreekXML/releases/tag/v1.2.0
 
-Refer to these repositories for further documentation. In the present repository, the POS tag + the word form of a token have been automatically linked to those contained in Morpheus and MorpheusUnderPhilologic. Since the latter databases also contain lemmata, this allowed their automatic extraction.
+Refer to these repositories for further documentation. In the present repository, the POS tag + the word form of a token have been automatically linked to those contained in Morpheus (see the "Morpheus" folder) and MorpheusUnderPhilologic. Since the latter databases also contain lemmata, this allowed their automatic extraction.
 
 The XML structure of each file is self-explanatory and solutions of abbreviations are provided at the beginning of each file. For convenience I give an example here:
 
@@ -40,10 +40,10 @@ Read the above xml fragment this way:
   * ```@p```: passage-level cts urn
   * ```@n```: position of the token in ```@p```
   * ```@a```: nth occurrence of that token in ```@p```
-  * ```@o```: morphological analysis of the token as provided automatically by the Mate tagger (this analysis follows the Morpheus format)
+  * ```@o```: morphological analysis of the token as provided automatically by the Mate tagger (this analysis follows the Morpheus format explained below)
   * ```@u```: position of the token within the s(entence) element
   * ```f``` element: the <mark>word form</mark> of the token
-  * ```l``` element: possible lemmata extracted from Morpheus (```<l2/>```) and PerseusUnderPhilologic (```<l1/>```) found by matching their word forms ```AND``` POS tags with those found in the present database. in ```<l1/>``` ```@o``` contains the original PerseusUnderPhilologic POS tag, which can be more informative than the Morpheus one. For example, ὃς in the above example is analyzed in PerseusUnderPhilologic as a relative provoun (```o="pr-s---mn-"```: see "r" in second position). Similarly, ὅδε is analyzed as a demonstative pronoun, while Morpheus simply treats it as a pronoun. One token may have more than one  ```<l1/>``` and/or ```<l2/>``` elements associated.
+  * ```l``` element: possible lemmata extracted from Morpheus (```<l2/>```) and PerseusUnderPhilologic (```<l1/>```) found by matching their word forms ```AND``` POS tags with those found in the present database. in ```<l1/>``` ```@o``` contains the original PerseusUnderPhilologic POS tag (see solutions below), which can be more informative than the Morpheus one. For example, ὃς in the above example is analyzed in PerseusUnderPhilologic as a relative pronoun (```o="pr-s---mn-"```: see "r" in second position). Similarly, ὅδε is analyzed as a demonstative pronoun, while Morpheus simply treats it as a pronoun. One token may have more than one  ```<l1/>``` and/or ```<l2/>``` elements associated.
 
 Meaning of abbreviations in t/@o (this value is the one used in Morpheus):
 
