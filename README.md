@@ -136,8 +136,8 @@ characters. Read them like this:
 * ```px```: indefinite pronoun (eg., τις)
 * ```m-```: numeral
 * ```i-```: interjection (eg., ὀτοτοί)
-* ```e```: exclamation
-* ```y```: math term or abbrev for all of Euclid's ΑΒΓ geometrical figures
+* ```e-```: exclamation
+* ```y-```: math term or abbrev for all of Euclid's ΑΒΓ geometrical figures
 * ```g-```: particle
 * ```gm```: modal particle" (eg., κε)
 
