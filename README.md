@@ -31,7 +31,7 @@ The XML structure of each file is self-explanatory and solutions of abbreviation
    
     <!-- further t elements -->
    
-   </s>
+  </s>
 ```
 Read the above xml fragment this way:
 
