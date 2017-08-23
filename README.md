@@ -50,7 +50,6 @@ The Morpheus POS tag in ```t/@o``` consists of 9 characters, each of which has a
 * 1:  part of speech
   * ```n```: noun
   * ```v```: verb
-  * ```t```: participle
   * ```a```: adjective
   * ```d```: adverb
   * ```l```: article
@@ -60,10 +59,9 @@ The Morpheus POS tag in ```t/@o``` consists of 9 characters, each of which has a
   * ```p```: pronoun
   * ```m```: numeral
   * ```i```: interjection
-  * ```e```: exclamation
   * ```u```: punctuation
 
-2: person
+* 2: person
   * ```1```: first person
   * ```2```: second person
   * ```3```: third person
