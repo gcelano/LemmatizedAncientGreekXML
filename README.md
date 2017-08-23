@@ -45,7 +45,7 @@ Read the above xml fragment this way:
   * ```f``` element: the <mark>word form</mark> of the token
   * ```l``` element: possible lemmata extracted from Morpheus (```<l2/>```) and PerseusUnderPhilologic (```<l1/>```) found by matching their word forms ```AND``` POS tags with those found in the present database. in ```<l1/>``` ```@o``` contains the original PerseusUnderPhilologic POS tag (see solutions below), which can be more informative than the Morpheus one. For example, ὃς in the above example is analyzed in PerseusUnderPhilologic as a relative pronoun (```o="pr-s---mn-"```: see "r" in second position). Similarly, ὅδε is analyzed as a demonstative pronoun, while Morpheus simply treats it as a pronoun. One token may have more than one  ```<l1/>``` and/or ```<l2/>``` elements associated.
 
-Meaning of abbreviations in t/@o (this value is the one used in Morpheus):
+The Morpheus POS tag in ```t/@o``` consists of 9 characters, each of which has an unambiguous meaning:
 
 * 1:  part of speech
   * ```n```: noun
