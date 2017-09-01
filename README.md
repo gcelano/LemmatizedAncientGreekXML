@@ -1,17 +1,27 @@
-# Lemmatized Ancient Greek Texts (v1.2.1)
+# Lemmatized Ancient Greek Texts (v1.2.2)
 
-This repository contains Ancient Greek texts which have been tokenized, POS-tagged, sentence-splitted, and lemmatized automatically. The texts come from the following repositories, which currently contain most of the Ancient Greek texts freely accessible over the internet:
+This repository contains Ancient Greek texts which have been tokenized, 
+POS-tagged, sentence-splitted, and lemmatized automatically. The texts come from 
+the following repositories, which currently contain most of the Ancient Greek 
+texts freely accessible over the internet:
 
 1. https://github.com/PerseusDL/canonical-greekLit/releases/tag/0.0.236
 2. https://github.com/OpenGreekAndLatin/First1KGreek/releases/tag/1.1.1802
 
-As for the tokenization, POS tagging and sentence splitting, the data rely on those provided in:
+As for the tokenization, POS tagging and sentence splitting, the data rely on 
+those provided in:
 
 1. https://github.com/gcelano/POStaggedAncientGreekXML/releases/tag/v1.2.0
 
-Refer to these repositories for further documentation. In the present repository, the POS tag + the word form of a token have been automatically linked to those contained in Morpheus (see the "Morpheus" folder) and MorpheusUnderPhilologic. Since the latter databases also contain lemmata, this allowed their automatic extraction.
+Refer to these repositories for further documentation. In the present 
+repository, the POS tag + the word form of a token have been automatically 
+linked to those contained in Morpheus (see the "Morpheus" folder) and 
+MorpheusUnderPhilologic. Since the latter databases also contain lemmata, 
+this allowed their automatic extraction.
 
-The XML structure of each file is self-explanatory and solutions of abbreviations are provided at the beginning of each file. For convenience I give an example here:
+The XML structure of each file is self-explanatory and solutions of 
+abbreviations are provided at the beginning of each file. For convenience I give 
+an example here:
 
 ```xml
   <s n="2">
@@ -36,16 +46,32 @@ The XML structure of each file is self-explanatory and solutions of abbreviation
 Read the above xml fragment this way:
 
 * ```s``` element: sentence element, where ```@n``` is the sentence number
-* ```t``` element: token element, which contains a number of values providing its morphological analysis:
+* ```t``` element: token element, which contains a number of values providing 
+  its morphological analysis:
   * ```@p```: passage-level cts urn
   * ```@n```: position of the token in ```@p```
   * ```@a```: nth occurrence of that token in ```@p```
-  * ```@o```: morphological analysis of the token as provided automatically by the Mate tagger (this analysis follows the Morpheus format explained below)
+  * ```@o```: morphological analysis of the token as provided automatically 
+              by the Mate tagger (this analysis follows the Morpheus format 
+              explained below)
   * ```@u```: position of the token within the s(entence) element
   * ```f``` element: the <mark>word form</mark> of the token
-  * ```l``` element: possible lemmata extracted from Morpheus (```<l2/>```) and PerseusUnderPhilologic (```<l1/>```) found by matching their word forms ```AND``` POS tags with those found in the present database. in ```<l1/>``` ```@o``` contains the original PerseusUnderPhilologic POS tag (see solutions below), which can be more informative than the Morpheus one. For example, ὃς in the above example is analyzed in PerseusUnderPhilologic as a relative pronoun (```o="pr-s---mn-"```: see "r" in second position). Similarly, ὅδε is analyzed as a demonstative pronoun, while Morpheus simply treats it as a pronoun. One token may have more than one  ```<l1/>``` and/or ```<l2/>``` elements associated.
+  * ```l``` element: possible lemmata extracted from Morpheus (```<l2/>```) and 
+                     PerseusUnderPhilologic (```<l1/>```) found by matching 
+                     their word forms ```AND``` POS tags with those found in the 
+                     present database. in ```<l1/>``` ```@o``` contains the 
+                     original PerseusUnderPhilologic POS tag (see solutions 
+                     below), which can be more informative than the Morpheus 
+                     one. For example, ὃς in the above example is analyzed in 
+                     PerseusUnderPhilologic as a relative pronoun 
+                     (```o="pr-s---mn-"```: see "r" in second position). 
+                     Similarly, ὅδε is analyzed as a demonstative pronoun, while 
+                     Morpheus simply treats it as a pronoun. One token may have 
+                     more than one  ```<l1/>``` and/or ```<l2/>``` elements 
+                     associated.
 
-The Morpheus POS tag in ```t/@o``` consists of 9 characters, each of which has an unambiguous meaning:
+The Morpheus POS tag in ```t/@o``` consists of 9 characters, each of which has 
+an unambiguous meaning:
 
 * 1:  part of speech
   * ```n```: noun
@@ -111,7 +137,8 @@ The Morpheus POS tag in ```t/@o``` consists of 9 characters, each of which has a
   * ```c```: comparative
   * ```s```: superlative
 
-The meaning of abbreviations in t/l/l1/@o (used in MorpheusUnderPhilologic) is the same as that in Morpheus (see above) except for the first two
+The meaning of abbreviations in t/l/l1/@o (used in MorpheusUnderPhilologic) is 
+the same as that in Morpheus (see above) except for the first two
 characters. Read them like this:
 
 * ```ae```: proper adjective (e.g., Ἀθηναῖος). 
@@ -143,13 +170,25 @@ characters. Read them like this:
 
 # Changelog
 
-In  the present version (1.2.1): 
+In version (1.2.2):
 
-* lemmas are corrected: if a Morpheus lemma (<l2/>) is the same as a MorpheusUnderPhilologic lemma (<l1/>), it is deleted.
+* In tlg0018.tlg010.opp-grc1.xml and tlg0018.tlg015.opp-grc1.xml the erroneous 
+  ’Kv at the beginning of the first sentence has been corrected into Ἐν
+* In tlg0018.tlg019.opp-grc1.xml the erroneous ’Η at the beginning of the first 
+  sentence has been corrected into Ἡ
+* "’" position has been corrected, i.e., put at the end of a sentence
+* Duplicate l1 and l2 are deleted
+
+In version (1.2.1): 
+
+* lemmas are corrected: if a Morpheus lemma (<l2/>) is the same as a 
+  MorpheusUnderPhilologic lemma (<l1/>), it is deleted.
 * documentation is improved: meaning of abbreviations in @o published
 
 # License
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
-
-
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+<img alt="Creative Commons License" style="border-width:0" 
+src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+</a><br />This work is licensed under a 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+Creative Commons Attribution-NonCommercial 4.0 International License</a>.
