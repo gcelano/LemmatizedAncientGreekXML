@@ -1,0 +1,149 @@
+<text text-cts="urn:cts:greekLit:tlg0013.tlg018.perseus-grc2" author="" title="Hymn 18 To Hermes Machine readable text" file-name="tlg0013.tlg018.perseus-grc2.xml" date-of-conversion="2017-03-29">
+  <sentence n="position in the document">
+    <token p="passage-level cts urn" n="position in @p" a="nth occurrence in @p" o="Mate tagger POS tag" u="position in s element" join="optional: join b(ack) or a(fter) for punctuation marks" tag="optional: selection of editorial tags containing the token in the original document, such as del or add">
+      <wordForm>word form of the token</wordForm>
+      <lemma id="contains the id number of the entry in the database consisting of the set of all word forms + morphological analyses of all Greek texts">
+        <l1>as many l1 elements as the lemmas found in PerseusUnderPhilologic for 
+              the relevant word form AND morphological analysis</l1>
+        <l2>as many l2 elements as the lemmas found in Morpheus for 
+              the relevant word form AND morphological analysis</l2>
+      </lemma>
+    </token>
+  </sentence>
+  <s n="1">
+    <t p="1" n="1" a="[1]" o="n-s---ma-" u="1">
+      <f>Ἑρμῆν</f>
+      <l i="45686">
+        <l1 o="ne-s---ma-">Ἑρμῆς</l1>
+      </l>
+    </t>
+    <t p="1" n="2" a="[1]" o="v1spia---" u="2">
+      <f>ἀείδω</f>
+      <l i="14287">
+        <l1 o="v-1spia---">ἀείδω</l1>
+      </l>
+    </t>
+    <t p="1" n="3" a="[1]" o="n-s---ma-" u="3">
+      <f>Κυλλήνιον</f>
+      <l i="158098"/>
+    </t>
+    <t p="1" n="4" a="[1]" o="u--------" u="4" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="1" n="5" a="[1]" o="n-s---ma-" u="5">
+      <f>Ἀργειφόντην</f>
+      <l i="171687">
+        <l1 o="ne-s---ma-">Ἀργειφόντης</l1>
+      </l>
+    </t>
+    <t p="1" n="6" a="[2]" o="u--------" u="6" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="5" n="1" a="[1]" o="a-s---fn-" u="7">
+      <f>αἰδοίη</f>
+      <l i="10887">
+        <l1 o="a--s---fn-">αἰδοῖος</l1>
+      </l>
+    </t>
+    <t p="5" n="2" a="[1]" o="u--------" u="8" join="b">
+      <f>:</f>
+      <l i="15230"/>
+    </t>
+  </s>
+  <s n="2">
+    <t p="5" n="3" a="[1]" o="n-p---mg-" u="1">
+      <f>μακάρων</f>
+      <l i="2864">
+        <l2>μάκαρ</l2>
+      </l>
+    </t>
+    <t p="5" n="4" a="[1]" o="c--------" u="2">
+      <f>δὲ</f>
+      <l i="83"/>
+    </t>
+    <t p="5" n="5" a="[1]" o="n-p---mg-" u="3">
+      <f>θεῶν</f>
+      <l i="1951">
+        <l2>θεός</l2>
+      </l>
+    </t>
+    <t p="5" n="6" a="[1]" o="v3siia---" u="4">
+      <f>ἀλέεινεν</f>
+      <l i="5236">
+        <l1 o="v-3siia---">ἀλεείνω</l1>
+      </l>
+    </t>
+    <t p="5" n="7" a="[1]" o="n-s---ma-" u="5">
+      <f>ὅμιλον</f>
+      <l i="563">
+        <l1 o="n--s---ma-">ὅμιλος</l1>
+      </l>
+    </t>
+    <t p="5" n="8" a="[1]" o="u--------" u="6" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="10" n="1" a="[1]" o="d--------" u="7">
+      <f>καὶ</f>
+      <l i="13">
+        <l1 o="d---------">καί</l1>
+      </l>
+    </t>
+    <t p="10" n="2" a="[1]" o="p-s---mn-" u="8">
+      <f>σὺ</f>
+      <l i="2121"/>
+    </t>
+    <t p="10" n="3" a="[1]" o="g--------" u="9">
+      <f>μὲν</f>
+      <l i="60">
+        <l1 o="g---------">μέν</l1>
+      </l>
+    </t>
+    <t p="10" n="4" a="[1]" o="d--------" u="10">
+      <f>οὕτω</f>
+      <l i="3584">
+        <l1 o="dd--------">οὕτως</l1>
+      </l>
+    </t>
+    <t p="10" n="5" a="[1]" o="v2spma---" u="11">
+      <f>χαῖρε</f>
+      <l i="40964">
+        <l1 o="v-2spma---">χαίρω</l1>
+      </l>
+    </t>
+    <t p="10" n="6" a="[1]" o="u--------" u="12" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="10" n="7" a="[1]" o="n-s---mg-" u="13">
+      <f>Διὸς</f>
+      <l i="4115">
+        <l1 o="ne-s---mg-">Ζεύς</l1>
+      </l>
+    </t>
+    <t p="10" n="8" a="[2]" o="d--------" u="14">
+      <f>καὶ</f>
+      <l i="13">
+        <l1 o="d---------">καί</l1>
+      </l>
+    </t>
+    <t p="10" n="9" a="[1]" o="n-s---fg-" u="15">
+      <f>Μαιάδος</f>
+      <l i="168270">
+        <l1 o="ne-s---fg-">Μαιάς</l1>
+      </l>
+    </t>
+    <t p="10" n="10" a="[1]" o="n-s---mv-" u="16">
+      <f>υἱέ</f>
+      <l i="5657">
+        <l1 o="n--s---mv-">υἱός</l1>
+      </l>
+    </t>
+    <t p="10" n="11" a="[1]" o="u--------" u="17" join="b">
+      <f>:</f>
+      <l i="15230"/>
+    </t>
+  </s>
+</text>

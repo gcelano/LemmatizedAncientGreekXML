@@ -1,4 +1,4 @@
-# Lemmatized Ancient Greek Texts (v1.2.3)
+# Lemmatized Ancient Greek Texts (v1.2.4)
 
 This repository contains Ancient Greek texts which have been tokenized, 
 POS-tagged, sentence-splitted, and lemmatized automatically. The texts come from 
@@ -169,6 +169,12 @@ characters. Read them like this:
 * ```gm```: modal particle" (eg., κε)
 
 # Changelog
+
+In version (1.2.4):
+* The codepoint "’" is used as apostrophe or as quotation mark. Some
+  known issues stemming from (wrong) Betacode conversion makes tokenization for
+  this codepoint hard to handle. This version corrects some tokenization errors
+  to move quotation mark "’" into a separate token 
 
 In version (1.2.3):
 * "’" position for elision has been corrected, i.e., put in the same element of

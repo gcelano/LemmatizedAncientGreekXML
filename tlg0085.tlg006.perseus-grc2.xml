@@ -1,0 +1,150 @@
+<text text-cts="urn:cts:greekLit:tlg0085.tlg006.perseus-grc2" author="Aeschylus" title="Libation Bearers Machine readable text" file-name="tlg0085.tlg006.perseus-grc2.xml" date-of-conversion="2017-03-29">
+  <sentence n="position in the document">
+    <token p="passage-level cts urn" n="position in @p" a="nth occurrence in @p" o="Mate tagger POS tag" u="position in s element" join="optional: join b(ack) or a(fter) for punctuation marks" tag="optional: selection of editorial tags containing the token in the original document, such as del or add">
+      <wordForm>word form of the token</wordForm>
+      <lemma id="contains the id number of the entry in the database consisting of the set of all word forms + morphological analyses of all Greek texts">
+        <l1>as many l1 elements as the lemmas found in PerseusUnderPhilologic for 
+              the relevant word form AND morphological analysis</l1>
+        <l2>as many l2 elements as the lemmas found in Morpheus for 
+              the relevant word form AND morphological analysis</l2>
+      </lemma>
+    </token>
+  </sentence>
+  <s n="1"/>
+  <s n="2"/>
+  <s n="3"/>
+  <s n="4"/>
+  <s n="5"/>
+  <s n="6"/>
+  <s n="7"/>
+  <s n="8"/>
+  <s n="9"/>
+  <s n="10"/>
+  <s n="11"/>
+  <s n="12">
+    <t p="18" n="1" a="[1]" o="u--------" u="1" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+  </s>
+  <s n="13"/>
+  <s n="14"/>
+  <s n="15"/>
+  <s n="16"/>
+  <s n="17"/>
+  <s n="18"/>
+  <s n="19"/>
+  <s n="20"/>
+  <s n="21"/>
+  <s n="22"/>
+  <s n="23"/>
+  <s n="24"/>
+  <s n="25"/>
+  <s n="26"/>
+  <s n="27"/>
+  <s n="28"/>
+  <s n="29"/>
+  <s n="30"/>
+  <s n="31"/>
+  <s n="32"/>
+  <s n="33"/>
+  <s n="34"/>
+  <s n="35"/>
+  <s n="36"/>
+  <s n="37"/>
+  <s n="38"/>
+  <s n="39"/>
+  <s n="40"/>
+  <s n="41"/>
+  <s n="42"/>
+  <s n="43"/>
+  <s n="44"/>
+  <s n="45"/>
+  <s n="46"/>
+  <s n="47"/>
+  <s n="48">
+    <t p="108" n="1" a="[1]" o="u--------" u="1" join="b">
+      <f>.</f>
+      <l i="26"/>
+    </t>
+  </s>
+  <s n="49"/>
+  <s n="50"/>
+  <s n="51"/>
+  <s n="52"/>
+  <s n="53"/>
+  <s n="54"/>
+  <s n="55"/>
+  <s n="56"/>
+  <s n="57"/>
+  <s n="58"/>
+  <s n="59"/>
+  <s n="60"/>
+  <s n="61"/>
+  <s n="62">
+    <t p="123" n="1" a="[1]" o="l-s---ma-" u="1">
+      <f>τὸν</f>
+      <l i="691"/>
+    </t>
+  </s>
+  <s n="63"/>
+  <s n="64"/>
+  <s n="65"/>
+  <s n="66"/>
+  <s n="67"/>
+  <s n="68"/>
+  <s n="69"/>
+  <s n="70"/>
+  <s n="71"/>
+  <s n="72"/>
+  <s n="73"/>
+  <s n="74">
+    <t p="149" n="1" a="[1]" o="u--------" u="1" join="b">
+      <f>.</f>
+      <l i="26"/>
+    </t>
+  </s>
+  <s n="75"/>
+  <s n="76"/>
+  <s n="77"/>
+  <s n="78"/>
+  <s n="79"/>
+  <s n="80">
+    <t p="165" n="1" a="[1]" o="u--------" u="1" join="b">
+      <f>·</f>
+      <l i="134"/>
+    </t>
+  </s>
+  <s n="81"/>
+  <s n="82"/>
+  <s n="83"/>
+  <s n="84"/>
+  <s n="85"/>
+  <s n="86"/>
+  <s n="87"/>
+  <s n="88"/>
+  <s n="89"/>
+  <s n="90"/>
+  <s n="91"/>
+  <s n="92"/>
+  <s n="93"/>
+  <s n="94"/>
+  <s n="95"/>
+  <s n="96"/>
+  <s n="97"/>
+  <s n="98"/>
+  <s n="99"/>
+  <s n="100"/>
+  <s n="101"/>
+  <s n="102"/>
+  <s n="103"/>
+  <s n="104"/>
+  <s n="105"/>
+  <s n="106"/>
+  <s n="107"/>
+  <s n="108"/>
+  <s n="109"/>
+  <s n="110"/>
+  <s n="111"/>
+  <s n="112"/>
+</text>

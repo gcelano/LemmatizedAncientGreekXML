@@ -1,0 +1,199 @@
+<text text-cts="urn:cts:greekLit:tlg0013.tlg027.perseus-grc2" author="" title="Hymn 27 To Artemis Machine readable text" file-name="tlg0013.tlg027.perseus-grc2.xml" date-of-conversion="2017-03-29">
+  <sentence n="position in the document">
+    <token p="passage-level cts urn" n="position in @p" a="nth occurrence in @p" o="Mate tagger POS tag" u="position in s element" join="optional: join b(ack) or a(fter) for punctuation marks" tag="optional: selection of editorial tags containing the token in the original document, such as del or add">
+      <wordForm>word form of the token</wordForm>
+      <lemma id="contains the id number of the entry in the database consisting of the set of all word forms + morphological analyses of all Greek texts">
+        <l1>as many l1 elements as the lemmas found in PerseusUnderPhilologic for 
+              the relevant word form AND morphological analysis</l1>
+        <l2>as many l2 elements as the lemmas found in Morpheus for 
+              the relevant word form AND morphological analysis</l2>
+      </lemma>
+    </token>
+  </sentence>
+  <s n="1">
+    <t p="1" n="1" a="[1]" o="n-s---fa-" u="1">
+      <f>Ἄρτεμιν</f>
+      <l i="2451">
+        <l1 o="ne-s---fa-">Ἄρτεμις</l1>
+      </l>
+    </t>
+    <t p="1" n="2" a="[1]" o="v1spia---" u="2">
+      <f>ἀείδω</f>
+      <l i="14287">
+        <l1 o="v-1spia---">ἀείδω</l1>
+      </l>
+    </t>
+    <t p="1" n="3" a="[1]" o="a-s---fa-" u="3">
+      <f>χρυσηλάκατον</f>
+      <l i="172204">
+        <l1 o="a--s---fa-">χρυσηλάκατος</l1>
+      </l>
+    </t>
+    <t p="1" n="4" a="[1]" o="u--------" u="4" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="1" n="5" a="[1]" o="a-s---fa-" u="5">
+      <f>κελαδεινήν</f>
+      <l i="172205">
+        <l1 o="a--s---fa-">κελαδεινός</l1>
+      </l>
+    </t>
+    <t p="1" n="6" a="[2]" o="u--------" u="6" join="b">
+      <f>,</f>
+      <l i="3"/>
+    </t>
+    <t p="5" n="1" a="[1]" o="n-s---fd-" u="7">
+      <f>ἄγρῃ</f>
+      <l i="170665">
+        <l1 o="n--s---fd-">ἄγρα</l1>
+      </l>
+    </t>
+    <t p="5" n="2" a="[1]" o="v-sppefn-" u="8">
+      <f>τερπομένη</f>
+      <l i="165138">
+        <l1 o="v--sppefn-">τέρπω</l1>
+      </l>
+    </t>
+    <t p="5" n="3" a="[1]" o="a-p---na-" u="9">
+      <f>παγχρύσεα</f>
+      <l i="14319">
+        <l1 o="a--p---na-">παγχρύσεος</l1>
+      </l>
+    </t>
+    <t p="5" n="4" a="[1]" o="n-p---na-" u="10">
+      <f>τόξα</f>
+      <l i="4548">
+        <l1 o="n--p---na-">τόξον</l1>
+      </l>
+    </t>
+    <t p="5" n="5" a="[1]" o="v3spia---" u="11">
+      <f>τιταίνει</f>
+      <l i="172206">
+        <l1 o="v-3spia---">τιταίνω</l1>
+      </l>
+    </t>
+    <t p="10" n="1" a="[1]" o="d--------" u="12">
+      <f>πάντη</f>
+      <l i="55641">
+        <l1 o="d---------">πᾶς</l1>
+        <l2>πάντῃ</l2>
+      </l>
+    </t>
+    <t p="10" n="2" a="[1]" o="v3spie---" u="13">
+      <f>ἐπιστρέφεται</f>
+      <l i="172207">
+        <l1 o="v-3spie---">ἐπιστρέφω</l1>
+      </l>
+    </t>
+    <t p="10" n="3" a="[1]" o="n-p---mg-" u="14">
+      <f>θηρῶν</f>
+      <l i="11754">
+        <l1 o="n--p---mg-">θήρ</l1>
+        <l2>θηρίον</l2>
+      </l>
+    </t>
+    <t p="10" n="4" a="[1]" o="v-sppafn-" u="15">
+      <f>ὀλέκουσα</f>
+      <l i="172208">
+        <l1 o="v--sppafn-">ὀλέκω</l1>
+      </l>
+    </t>
+    <t p="10" n="5" a="[1]" o="n-s---fa-" u="16">
+      <f>γενέθλην</f>
+      <l i="3774">
+        <l1 o="n--s---fa-">γενέθλη</l1>
+      </l>
+    </t>
+    <t p="10" n="6" a="[1]" o="u--------" u="17" join="b">
+      <f>.</f>
+      <l i="26"/>
+    </t>
+  </s>
+  <s n="2">
+    <t p="15" n="1" a="[1]" o="n-p---fg-" u="1">
+      <f>Μουσῶν</f>
+      <l i="41455">
+        <l1 o="ne-p---fg-">Μοῦσα</l1>
+      </l>
+    </t>
+    <t p="15" n="2" a="[1]" o="d--------" u="2">
+      <f>καὶ</f>
+      <l i="13">
+        <l1 o="d---------">καί</l1>
+      </l>
+    </t>
+    <t p="15" n="3" a="[1]" o="n-p---fg-" u="3">
+      <f>Χαρίτων</f>
+      <l i="112759">
+        <l1 o="ne-p---fg-">Χάρις</l1>
+      </l>
+    </t>
+    <t p="15" n="4" a="[1]" o="a-s---ma-" u="4">
+      <f>καλὸν</f>
+      <l i="6959">
+        <l1 o="a--s---ma-">καλός</l1>
+      </l>
+    </t>
+    <t p="15" n="5" a="[1]" o="n-s---ma-" u="5">
+      <f>χορὸν</f>
+      <l i="2325">
+        <l1 o="n--s---ma-">χορός</l1>
+      </l>
+    </t>
+    <t p="15" n="6" a="[1]" o="v-sppafn-" u="6">
+      <f>ἀρτυνέουσα</f>
+      <l i="172209"/>
+    </t>
+    <t p="15" n="7" a="[1]" o="u--------" u="7" join="b">
+      <f>.</f>
+      <l i="26"/>
+    </t>
+  </s>
+  <s n="3">
+    <t p="20" n="1" a="[1]" o="a-p---mg-" u="1">
+      <f>ἀθανάτων</f>
+      <l i="3462">
+        <l1 o="a--p---mg-">ἀθάνατος</l1>
+      </l>
+    </t>
+    <t p="20" n="2" a="[1]" o="n-s---fd-" u="2">
+      <f>βουλῇ</f>
+      <l i="10891">
+        <l1 o="n--s---fd-">βουλή</l1>
+      </l>
+    </t>
+    <t p="20" n="3" a="[1]" o="g--------" u="3">
+      <f>τε</f>
+      <l i="122">
+        <l1 o="g---------">τε</l1>
+      </l>
+    </t>
+    <t p="20" n="4" a="[1]" o="c--------" u="4">
+      <f>καὶ</f>
+      <l i="123">
+        <l1 o="c---------">καί</l1>
+      </l>
+    </t>
+    <t p="20" n="5" a="[1]" o="n-p---nd-" u="5">
+      <f>ἔργμασιν</f>
+      <l i="172210">
+        <l1 o="n--p---nd-">ἔργμα</l1>
+      </l>
+    </t>
+    <t p="20" n="6" a="[1]" o="v2siie---" u="6">
+      <f>ἔξοχ᾽</f>
+      <l i="172211"/>
+    </t>
+    <t p="20" n="7" a="[1]" o="a-p---ma-" u="7">
+      <f>ἀρίστους</f>
+      <l i="4982">
+        <l2>ἄριστος</l2>
+      </l>
+    </t>
+    <t p="20" n="8" a="[1]" o="u--------" u="8" join="b">
+      <f>.</f>
+      <l i="26"/>
+    </t>
+  </s>
+</text>
