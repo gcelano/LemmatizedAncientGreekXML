@@ -1,4 +1,4 @@
-# Lemmatized Ancient Greek Texts (v1.2.4)
+# Lemmatized Ancient Greek Texts (v1.2.5)
 
 This repository contains Ancient Greek texts which have been tokenized, 
 POS-tagged, sentence-splitted, and lemmatized automatically. The texts come from 
@@ -169,6 +169,11 @@ characters. Read them like this:
 * ```gm```: modal particle" (eg., κε)
 
 # Changelog
+
+In version (1.2.5):
+* Lemmas for prepositions, particles, and a few clear mistakes concerning 
+  article lemmas have been corrected. This has increased dramatically the number 
+  of the lemmas available in the corpus: 21493806 lemmas against 25522507 tokens.
 
 In version (1.2.4):
 * The codepoint "’" is used as apostrophe or as quotation mark. Some
